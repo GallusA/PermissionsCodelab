@@ -44,5 +44,9 @@
 
     <string name="no_address">No addresses found</string>
     <string name="no_intent_found">No application found to handle this action</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
