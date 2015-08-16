@@ -14,13 +14,11 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
+<resources>
 
-<!-- Main Activity single pane layout. This layout contains a single ContactsListFragment that
-     displays a list of contacts. Tapping on a contact will start a new activity to display the
-     contact details. -->
+    <!-- On devices with a smallest width of 600dp or more in portrait orientation, the two-pane
+         layout should allocate equal space to each fragment. -->
+    <integer name="contact_list_percent">50</integer>
+    <integer name="contact_detail_percent">50</integer>
 
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-          android:name="com.example.android.contactslist.ui.ContactsListFragment"
-          android:id="@+id/contact_list"
-          android:layout_height="match_parent"
-          android:layout_width="match_parent"/>
+</resources>
